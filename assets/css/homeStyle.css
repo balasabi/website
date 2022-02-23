@@ -20,7 +20,7 @@
 .body-container {
     background: #ffffff 0% 0% no-repeat padding-box;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     padding: 0% 10%;
 }
 
@@ -29,9 +29,9 @@
 ================================================== */
 
 .site-header {
-    margin: 0px 10%;
+    margin: 0px 5%;
     margin-top: 5px;
-    width: 80%;
+    width: 90%;
     height: 85px;
     box-shadow: inset 0px 3px 6px #00000029, 0px 3px 6px #0000000D;
     opacity: 1;
@@ -71,6 +71,15 @@
 
 .nav-item {
     padding: 0px 10px;
+}
+
+.nav-item-selected {
+    padding: 0px 10px;
+    height: 92px;
+    border-bottom: 5px solid #F56961;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
 }
 
 .nav-link {
@@ -133,7 +142,7 @@
 .first-section {
     background: #FEF0EF;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     padding-bottom: 30px;
 }
 
@@ -157,9 +166,9 @@
 }
 
 .banner-1a {
-    margin-top: -30px;
+    /* margin-top: -30px; */
     width: 50%;
-    height: 50%;
+    /* height: 50%; */
     padding-right: 10px;
     float: right;
 }
@@ -194,8 +203,7 @@
 .second-section {
     background: #E5E8FB;
     width: 100%;
-    height: 100%;
-    padding-bottom: 30px;
+    /* height: 100%; */
 }
 
 .second-section-div {
@@ -214,17 +222,17 @@
     width: 150px;
     height: 150px;
     margin-left: 10px;
-    margin-bottom: -140px;
+    margin-bottom: -100px;
 }
 
 .banner-3 {
     width: 50%;
-    height: 50%;
+    /* height: 50%; */
 }
 
 .banner-2 {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     padding-left: 10px;
 }
 
@@ -268,5 +276,5 @@
     background: #282834;
     width: 100%;
     height: 100px;
-    margin-top: -20;
+    margin-top: -10px;
 }
